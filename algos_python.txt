@@ -1,0 +1,185 @@
+1. Supprimer les doublons d’une liste
+Énoncé :
+Écris une fonction qui prend une liste et renvoie une nouvelle liste sans doublons, en conservant l’ordre d’apparition des éléments.
+Exemple :
+
+Entrée : [3, 5, 2, 3, 8, 5, 9, 2]
+
+Sortie : [3, 5, 2, 8, 9]
+
+2. Vérifier si un mot est un palindrome
+Énoncé :
+Un palindrome est un mot qui se lit de la même façon à l’endroit et à l’envers (ex: "kayak").
+Écris une fonction qui renvoie True si une chaîne est un palindrome, sinon False.
+Exemple :
+
+Entrée : "radar"
+
+Sortie : True
+
+3. Compter les occurrences d’un élément dans une liste
+Énoncé :
+Écris une fonction qui compte combien de fois un élément apparaît dans une liste.
+Exemple :
+
+Entrée : ([1, 4, 2, 4, 5, 4, 7], 4)
+
+Sortie : 3
+
+4. Trouver le plus grand nombre d’une liste (sans max())
+Énoncé :
+Écris une fonction qui renvoie le plus grand élément d’une liste sans utiliser la fonction max().
+Exemple :
+
+Entrée : [7, 2, 10, 4, 8]
+
+Sortie : 10
+
+5. Inverser une chaîne de caractères (sans [::-1])
+Énoncé :
+Écris une fonction qui renvoie l’inverse d’une chaîne sans utiliser le slicing [::-1].
+Exemple :
+
+Entrée : "hello"
+
+Sortie : "olleh"
+
+6. Fusionner deux listes triées en une liste triée
+Énoncé :
+Écris une fonction qui prend deux listes déjà triées et les fusionne en une seule liste triée.
+Exemple :
+
+Entrée : ([1, 3, 5], [2, 4, 6])
+
+Sortie : [1, 2, 3, 4, 5, 6]
+
+7. Vérifier si deux mots sont des anagrammes
+Énoncé :
+Deux mots sont des anagrammes s’ils contiennent les mêmes lettres dans un ordre différent (ex: "listen" et "silent").
+Écris une fonction qui renvoie True si deux mots sont des anagrammes.
+Exemple :
+
+Entrée : ("listen", "silent")
+
+Sortie : True
+
+8. Trouver tous les nombres premiers jusqu’à N
+Énoncé :
+Un nombre premier est divisible uniquement par 1 et lui-même.
+Écris une fonction qui renvoie tous les nombres premiers inférieurs à N.
+Exemple :
+
+Entrée : 20
+
+Sortie : [2, 3, 5, 7, 11, 13, 17, 19]
+
+9. Calculer la factorielle d’un nombre
+Énoncé :
+La factorielle de n (notée n!) est le produit de tous les entiers de 1 à n.
+Écris une fonction qui la calcule (itératif ou récursif).
+Exemple :
+
+Entrée : 5
+
+Sortie : 120 (car 5! = 5 × 4 × 3 × 2 × 1 = 120)
+
+10. Trouver les paires d’éléments dont la somme vaut K
+Énoncé :
+Écris une fonction qui, pour une liste d’entiers et un nombre K, renvoie toutes les paires d’éléments dont la somme vaut K.
+Exemple :
+
+Entrée : ([1, 2, 3, 4, 5], 6)
+
+Sortie : [(1, 5), (2, 4)]
+
+11. Calculer la suite de Fibonacci jusqu’à N termes
+Énoncé :
+La suite de Fibonacci est définie par F(n) = F(n-1) + F(n-2) avec F(0) = 0 et F(1) = 1.
+Écris une fonction qui génère les N premiers termes.
+Exemple :
+
+Entrée : 8
+
+Sortie : [0, 1, 1, 2, 3, 5, 8, 13]
+
+12. Vérifier si une liste est triée
+Énoncé :
+Écris une fonction qui renvoie True si une liste est triée par ordre croissant, sinon False.
+Exemple :
+
+Entrée : [1, 3, 5, 7, 9]
+
+Sortie : True
+
+13. Trouver l’élément manquant dans une séquence
+Énoncé :
+Étant donné une liste d’entiers consécutifs avec un élément manquant, trouve-le.
+Exemple :
+
+Entrée : [1, 2, 3, 5, 6]
+
+Sortie : 4
+
+14. Calculer le PGCD de deux nombres
+Énoncé :
+Le PGCD (Plus Grand Commun Diviseur) de deux nombres est le plus grand entier qui les divise tous les deux.
+Écris une fonction qui le calcule (algorithme d’Euclide).
+Exemple :
+
+Entrée : (48, 18)
+
+Sortie : 6
+
+15. Générer tous les sous-ensembles d’une liste
+Énoncé :
+Écris une fonction qui renvoie tous les sous-ensembles (ou "puissances") d’une liste.
+Exemple :
+
+Entrée : [1, 2]
+
+Sortie : [[], [1], [2], [1, 2]]
+
+16. Compter les mots dans une chaîne
+Énoncé :
+Écris une fonction qui compte le nombre de mots dans une chaîne (séparés par des espaces).
+Exemple :
+
+Entrée : "Bonjour le monde"
+
+Sortie : 3
+
+17. Trouver le deuxième plus grand nombre d’une liste
+Énoncé :
+Écris une fonction qui renvoie le deuxième plus grand élément d’une liste.
+Exemple :
+
+Entrée : [10, 5, 20, 15]
+
+Sortie : 15
+
+18. Vérifier si une liste contient des doublons
+Énoncé :
+Écris une fonction qui renvoie True si une liste contient des doublons, sinon False.
+Exemple :
+
+Entrée : [1, 2, 3, 1]
+
+Sortie : True
+
+19. Trouver le plus long mot dans une chaîne
+Énoncé :
+Écris une fonction qui renvoie le mot le plus long d’une chaîne de caractères.
+Exemple :
+
+Entrée : "Python est un langage puissant"
+
+Sortie : "puissant"
+
+20. Remplacer un élément dans une liste
+Énoncé :
+Écris une fonction qui remplace toutes les occurrences d’un élément par un autre dans une liste.
+Exemple :
+
+Entrée : ([1, 2, 3, 2, 4], 2, 99)
+
+Sortie : [1, 99, 3, 99, 4]
