@@ -1,4 +1,5 @@
-# 1. Supprimer les doublons d’une liste en conservant l'ordre d'apparition des éléments.
+# 1. Supprimer les doublons d’une liste en conservant
+# l'ordre d'apparition des éléments.
 def remove_duplicates(lst):
     seen = set()
     result = []
@@ -38,4 +39,34 @@ def count_occurrences(lst, element):
 
 
 # Test de la fonction
-print(f"Le nombre d'occurrences de '4' dans la liste est :{count_occurrences([1, 4, 2, 4, 5, 4, 7], 4)}")
+tableau = [1, 4, 2, 4, 5, 4, 7]
+occurence = 4
+result = count_occurrences(tableau, occurence)
+print(f"Le nombre d'occurrences de '{occurence}' dans la liste est : {result} 🧮")
+
+
+# 4. Trouver le plus grand nombre d’une liste (sans max())
+def find_max(lst):
+    if not lst:
+        return None
+    max_value = lst[0]
+    for num in lst:
+        if num > max_value:
+            max_value = num
+    return max_value
+
+
+# Test de la fonction
+numbers = [7, 2, 10, 4, 8]
+print("Le plus grand nombre de la liste est :", find_max(numbers))
+
+
+# 5. Inverser une chaîne de caractères (sans [::-1])
+def reverse_string(s):
+    s = "".join(reversed(s))
+    return s
+
+
+# Test de la fonction
+string = "Hello"
+print("Chaîne inversée :", reverse_string(string))
